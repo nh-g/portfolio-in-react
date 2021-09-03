@@ -1,0 +1,18 @@
+#contact img{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+#contact a {
+    color: $textGray;
+    text-decoration: none;
+}
+#contact ul {
+    list-style: none;
+    padding: 5px;
+}
+@media screen and (min-width: 541px) {
+    #contact .grid{
+        grid-template-columns:  1fr 1fr;
+    }
+}

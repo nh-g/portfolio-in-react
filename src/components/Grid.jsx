@@ -5,14 +5,14 @@ export default function Grid({ sectionName, getIntro, filePath, getData, Compone
 
   return (
     <section id={`${sectionName}`} className="reverse">
-      {/* Section Tittle */}
+      {/* Tittle */}
       <h1 className="section-name">{sectionName}</h1>
 
       <div className="grid">
-        {/* Section Introduction Paragraph */}
+        {/* Introduction Paragraph */}
         <div>{getIntro()}</div>
 
-        {/* Section Main Content */}
+        {/* Main Content */}
         {sectionName === "hero" || sectionName === "about" ? (
           <ImageLoader filePath={filePath} />
         ) : (

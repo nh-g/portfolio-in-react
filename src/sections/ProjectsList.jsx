@@ -5,7 +5,6 @@ import Grid from "../components/Grid";
 import ProjectCard from "../components/atoms/Card";
 
 export default function Projects() {
-  console.log("Project Data", getProjects);
   return (
     <Grid
       getIntro={getProjectsIntro}

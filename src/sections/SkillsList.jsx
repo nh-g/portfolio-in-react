@@ -4,7 +4,7 @@ import { getSkillsIntro } from "../data/aboutMe";
 import Grid from "../components/Grid";
 import Skill from "../components/atoms/Skill";
 
-export default function Projects() {
+export default function SkillsList() {
   return (
     <Grid
       getIntro={getSkillsIntro}

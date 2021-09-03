@@ -1,0 +1,32 @@
+footer{
+    width: 100%;
+    background: $purple;
+    overflow: hidden;
+    bottom: 0;
+    display: grid;
+    justify-items: center;
+}
+.footer img{
+    width: 30px;
+    height: 30px;
+}
+.footer p{
+    margin-bottom: 20px;
+    margin-top: 0;
+    color: white;
+    font-size: 13px;
+}
+
+.footer ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.footer li{
+    justify-items: center;
+    margin-left: 10px;
+}

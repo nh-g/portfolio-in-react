@@ -3,6 +3,8 @@ import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Projects from "./sections/ProjectsList";
 import Skills from "./sections/SkillsList";
+import ContactMe from './sections/ContactMe';
+import Footer from "./components/Footer";
 
 import "./styles/styles.scss";
 export default function App() {
@@ -14,7 +16,9 @@ export default function App() {
         <About />
         <Projects />
         <Skills/>
+        <ContactMe/>
       </div>
+      <Footer/>
     </div>
   );
 }
