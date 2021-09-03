@@ -1,7 +1,9 @@
+import ImageLoader from "./ImageLoader";
+
 export default function Grid({ sectionName, getData, filePath }) {
-  const [fileFolder, fileName] = filePath.split("/");
-  const imageURL =
-    require(`../assets/images/${fileFolder}/${fileName}`).default;
+  // const [fileFolder, fileName] = filePath.split("/");
+  // const imageURL =
+  //   require(`../assets/images/${fileFolder}/${fileName}`).default;
 
   return (
     <section id={`${sectionName}`} className="reverse">
@@ -9,7 +11,9 @@ export default function Grid({ sectionName, getData, filePath }) {
       <div className="grid">
         {getData()}
         {(sectionName === "hero" || sectionName === "about")?
-        <img alt="logo" src={imageURL} />: ""}
+        <ImageLoader filePath={filePath}/> 
+        : ""}
+        {/* <img alt="logo" src={imageURL} />: ""} */}
       </div>
     </section>
   );
