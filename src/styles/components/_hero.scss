@@ -1,5 +1,11 @@
+#hero {
+    min-height: 100vh;
+    // min-height: calc(100vh-70px);
+    align-items: center;
+}
 #hero img{
     width: 95%;
+    margin-top: 70px;
     height: 50vh;
 }
 #hero .section-name{

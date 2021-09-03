@@ -17,23 +17,20 @@ export default function Projects() {
         {/* Main Content */}
         <ul>
           <li>
-            <a href="mailto:giangngohong@gmail.com">
-              <img src={Email} alt="" />
-              giangngohong@gmail.com
-            </a>
+            <img src={Email} alt="" />
+            <a href="mailto:giangngohong@gmail.com">giangngohong@gmail.com</a>
           </li>
           <li>
-            <a href="tel:0763497580">
-              <img src={Mobile} alt="" /> +46 76 337 2268
-            </a>
+            <img src={Mobile} alt="" />
+            <a href="tel:0763497580">+46 76 337 2268</a>
           </li>
           <li>
+            <img src={Location} alt="" />
             <a
               target="_blank"
-              rel="noopener noreferrer"
               href="https://en.wikipedia.org/wiki/Stockholm"
             >
-              <img src={Location} alt="" /> Stockholm, Sweden
+              Stockholm, Sweden
             </a>
           </li>
         </ul>

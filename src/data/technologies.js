@@ -24,5 +24,21 @@ export function getTechnologies() {
       imgFilePath: "skills/gatsby.svg",
       title: "Gatsby",
     },
+    {
+      imgFilePath: "skills/github.svg",
+      title: "Git",
+    },
+    {
+      imgFilePath: "skills/java.svg",
+      title: "Java",
+    },
+    {
+      imgFilePath: "skills/recoil.svg",
+      title: "Recoil",
+    },
+    {
+      imgFilePath: "skills/design.svg",
+      title: "Design",
+    },
   ];
 }
