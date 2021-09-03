@@ -1,5 +1,4 @@
 import ReactDom from "react-dom";
-// import Pill from "./Pill";
 
 export default function Modal({ onClose, open, children }) {
   if (!open) return null;

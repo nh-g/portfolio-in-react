@@ -3,7 +3,7 @@ export function getProjects() {
     {
       description:
         "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-      technologies: ["Some", "other", "third"],
+      technologies: ["React", "Long name tech", "Recoils", "TypeScript"],
       isReleased: true,
       title: "Vegan Restaurant Site",
       previewImg: "projects/vegan.jpg",

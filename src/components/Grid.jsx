@@ -16,7 +16,9 @@ export default function Grid({ sectionName, getIntro, filePath, getData, Compone
         {sectionName === "hero" || sectionName === "about" ? (
           <ImageLoader filePath={filePath} />
         ) : (
-          <MappingList Component={Component} getData={getData} />
+          <div className="list">
+            <MappingList Component={Component} getData={getData} />
+          </div>
         )}
       </div>
     </section>

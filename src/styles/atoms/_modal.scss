@@ -1,11 +1,26 @@
 // NEED to MODIFY
+#portal {
+    box-sizing: border-box;
+    font-weight: 300;
+    line-height: 1.5;
+    *, ::after, ::before {
+    box-sizing: border-box;
+}
+}
 .modal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 10;
     background-color: white;
-    z-index: 1000;
+    padding: 34px 24px 34px 24px;
+    max-width: 768px;
+    height: fit-content;
 }
 
 .overlay-modal{
@@ -19,99 +34,73 @@
 }
 
 #modal-popup img{
-    width: 250px;  
+    width: 100% !important;
     height: auto;
+    border: 1px solid white;
+    box-shadow: rgb(60 64 67 / 30%) 0px 1px 2px 0px, rgb(60 64 67 / 15%) 0px 2px 6px 2px;
 }
 
 #modal-popup{
     max-width: 250px; 
+    height: fit-content;
 }
 
 #modal-popup p{
-    margin: var(--space-small);
-
-}
-
-#modal-popup h2{
-    margin-left: var(--space-small);
-}
-
-.pills{
-    border: 1px solid var(--color-dusty-pink);
-    box-sizing: border-box;
-    border-radius: 100px;
-    margin: 2px;
-    padding: 2px;
-}
-
-#modal-popup h2{
-    color: var(--color-very-dark-purple);
-}
-
-#modal-popup p{
-    color: var(--color-very-dark-purple);
-}
-
-#technologies-list{
-    max-width: 270px;
-    list-style: none;
-    align-items: center;
-    text-align: center;
-    padding-left: var(--space-small);
-    padding-right: var(--space-small);
-    display: flex;
-    flex-flow: wrap;
-}
-
-.buttons a{
-    text-decoration: none;
     font-size: 15px;
-    font-weight: bold;
+    margin: var(--space-small);
 }
 
-.buttons button{
-    margin-right: var(--space-small);
+#modal-popup h3{
     margin-left: var(--space-small);
-    margin-bottom: 3px;
-    padding: var(--space-small);
-    border: 2px solid var(--color-very-dark-purple);
+    font-weight: 300;
+    margin-top: 2px;
+    letter-spacing: 1.1px;
 }
 
-.buttons{
-    margin-bottom: var(--space-medium);
+#modal-popup .list{
+    grid-template-columns: 1fr auto;
 }
 
-.purple-button a{
-    color: white;
+.pill {
+    border: 1px solid gray;
+    color: gray;
+    margin: 4px;
+    border-radius: 25px;
+    padding: 5px 10px 5px 10px;
 }
 
-.white-button a{
-    color: var(--color-very-dark-purple);
+.row {
+    margin: 0 auto !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-size: 11px;
+    line-height: 1.5em;
+    height: 6.5em;       /* height is 2x line-height, so two lines will display */
+    overflow: hidden;  /* prevents extra lines from being visible */
 }
 
-#modal-popup .buttons{
-display: grid;
-}
+@media screen and (min-width: 541px) {
+    .modal{
+        width: 450px;
+    }
+    #modal-popup{
+        display: grid;
+        max-width: 450px; 
+        grid-template-columns: 56% 40%;
+        column-gap: 3%;
+    }
 
-.purple-button{
-    background-color: var(--color-very-dark-purple);
 }
+@media screen and (min-width: 767px) {
+    .modal{
+        width: 680px;
+    }
+    #modal-popup{
+        display: grid;
+        max-width: 630px; 
+        grid-template-columns: 56% 40%;
+        column-gap: 3%;
+    }
 
-.white-button{
-    background-color: white;
-}
-
-.corner-button button{
-    color: var(--color-very-dark-purple);
-    font-weight: bolder;
-    font-size: 20px;
-    float: right;
-    position: absolute;
-    left: 87%;
-    border: 2px solid var(--color-very-dark-purple);
-    background-color: white;
-}
-
-#technologies-list{
-    color: var(--color-dark-purple);
 }

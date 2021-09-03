@@ -7,13 +7,14 @@
 }
 
 .overlay img {
-  opacity: 0.6;
+  opacity: 0.5;
 }
 
 .overlay-text {
   display: flex;
   position: absolute;
   margin-top: 20px;
+  margin-left: 20px;
 }
 
 .overlay-text p {
@@ -26,6 +27,7 @@
 #projects h3 {
   margin-bottom: var(--space-small);
   margin: 0;
+  font-size: 17px;
 }
 
 #projects {
@@ -71,7 +73,8 @@
   text-align: center;
 }
 
-@media (min-width: 542px) and (max-width: 768px) {
+// @media (min-width: 542px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   #projects .list {
     grid-template-columns: 1fr 1fr;
     row-gap: 20px;

@@ -1,0 +1,56 @@
+.button a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.button{
+    margin-top: 20px;
+    width: 100%;
+    margin-right: var(--space-small);
+    margin-left: var(--space-small);
+    margin-bottom: 3px;
+    padding: var(--space-small);
+    border: 2px solid $black;
+}
+
+.button{
+    margin-bottom: var(--space-medium);
+}
+
+.black {
+    background-color: $black;
+    & a{
+        color: $white;
+    }
+}
+
+.white {
+    background-color: $white;
+    & a{
+        color: $black;
+    }
+
+}
+
+#modal-popup .button{
+display: grid;
+}
+
+.corner-button button{
+    color: var(--color-very-dark-purple);
+    font-weight: bolder;
+    font-size: 20px;
+    float: right;
+    position: absolute;
+    left: 87%;
+    border: 2px solid var(--color-very-dark-purple);
+    background-color: white;
+}
+.corner-button{
+    position: fixed;
+    top: 8px;
+    right: 25px;
+    font-size: 2em;
+}
+
