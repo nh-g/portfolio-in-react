@@ -3,5 +3,6 @@ import Grid from "./Grid";
 
 export default function Hero() {
   const filePath = "landing/hero.png";
-  return <Grid filePath={filePath} getData={getHero} sectionName={"hero"}/>;
+  const sectionName = "hero";
+  return <Grid sectionName={sectionName} getIntro={getHero} filePath ={filePath}/>;
 }
