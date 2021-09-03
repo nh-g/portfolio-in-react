@@ -12,6 +12,7 @@ nav {
   align-items: center;
 
   z-index: 100;
+
 }
 .nav-logo {
   position: absolute;
@@ -41,4 +42,18 @@ nav {
     color: $textGray;
     font-weight: 400;
   }
+}
+@media screen and (min-width: 541px) {
+    .nav-logo {
+      left: 3rem;
+    }
+    .bar {
+      width: fit-content;
+      grid-template-columns: repeat(4, 1fr);
+      column-gap: 30px;
+      div {
+        display: none;
+    }
+  }
+    
 }
