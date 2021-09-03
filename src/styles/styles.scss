@@ -1,0 +1,9 @@
+@import './base/layout.scss';
+@import'./base/typography';
+
+// Atoms
+@import './atoms/grid';
+// Components
+@import './components/navigationBar';
+@import './components/hero';
+@import './components/about'
