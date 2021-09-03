@@ -1,0 +1,43 @@
+/* Media queries */
+$mobileBreakpoint: 414px;
+$mobileBreakpointXS: 376px;
+$mobileBreakpointXXS: 321px;
+
+$tabletBreakpoint: 750px;
+
+/** colors **/
+$grayDark: #c4c4c4;
+$grayLight: #eeeeee;
+$white: white;
+$black: black;
+$prim: #F4ECF4;
+$amour: #F8ECF4;
+$purple: #C4B4DC;
+$textGray: #364152;
+
+/*font-sizes*/
+$fMobile: 16px;
+$fLaptop: 12px;
+
+$fFooterMobile: 14px;
+$fFooterLaptop: 12px;
+
+$fHeaderMobile: $fFooterMobile;
+$fHeaderLaptop: $fFooterLaptop;
+
+/*fonts style*/
+$Light: 100;
+$Regular: 300;
+$Bold: 800;
+
+/* sizes */
+
+$header-height: 70px;
+$footer-height: 85px;
+
+$bar-height: 44px;
+
+:root {
+  --header-height: 70px;
+  --footer-height: 85px;
+}

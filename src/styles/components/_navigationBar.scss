@@ -1,0 +1,43 @@
+nav {
+  position: fixed;
+//   background: rgba(239, 226, 242, 0.5);
+  background: white;
+  height: $header-height;
+  width: 100%;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  z-index: 100;
+}
+.nav-logo {
+  position: absolute;
+  img {
+    height: 50px;
+    width: 50px;
+  }
+}
+.bar {
+  // background: $prim;
+  background: $white;
+  height: $bar-height;
+  width: 85%;
+
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 44px;
+  padding: 0 10px;
+
+  a {
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+}

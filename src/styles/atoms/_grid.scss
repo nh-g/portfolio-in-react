@@ -1,0 +1,19 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+
+  text-align: left;
+  height: 100vh;
+  width: 100%;
+}
+.grid img{
+    justify-items: center;
+}
+
+.section-name {
+    text-transform: uppercase;
+    padding-top: 2rem;
+}
+
+

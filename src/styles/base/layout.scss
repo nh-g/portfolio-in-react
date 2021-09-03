@@ -1,0 +1,54 @@
+@import './variables';
+
+.App, html{
+    color: black;
+    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+}
+.main{
+    margin-top: $header-height;
+}
+section {
+    // width: 100%;
+    padding-left: 15px;    
+    padding-right: 15px;
+    // height: 100vh;
+    margin-bottom: 20px;
+}
+// section:first-child {
+//   height: calc(100vh-$header-height);
+// }
+// section:nth-child(2) {
+//   height: 100vh;
+// }
+
+section:nth-child(even) {
+  background: $prim;
+}
+
+
+.img-50 {
+  height: 50px;
+  width: 50px;
+}
+
+.img-40 {
+  height: 40px;
+  width: 40px;
+}
+
+.img-30 {
+  height: 30px;
+  width: 30px;
+}
+
+.img-bw {
+  filter: grayscale(1);
+}
+
+
+@media screen and (min-width: 658px) {
+    section{
+        padding-left: 5rem;    
+        padding-right: 5rem;
+    }
+}
