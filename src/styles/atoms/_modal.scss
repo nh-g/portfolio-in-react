@@ -1,0 +1,117 @@
+// NEED to MODIFY
+.modal{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    z-index: 1000;
+}
+
+.overlay-modal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .7);
+    z-index: 1000;
+}
+
+#modal-popup img{
+    width: 250px;  
+    height: auto;
+}
+
+#modal-popup{
+    max-width: 250px; 
+}
+
+#modal-popup p{
+    margin: var(--space-small);
+
+}
+
+#modal-popup h2{
+    margin-left: var(--space-small);
+}
+
+.pills{
+    border: 1px solid var(--color-dusty-pink);
+    box-sizing: border-box;
+    border-radius: 100px;
+    margin: 2px;
+    padding: 2px;
+}
+
+#modal-popup h2{
+    color: var(--color-very-dark-purple);
+}
+
+#modal-popup p{
+    color: var(--color-very-dark-purple);
+}
+
+#technologies-list{
+    max-width: 270px;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    padding-left: var(--space-small);
+    padding-right: var(--space-small);
+    display: flex;
+    flex-flow: wrap;
+}
+
+.buttons a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.buttons button{
+    margin-right: var(--space-small);
+    margin-left: var(--space-small);
+    margin-bottom: 3px;
+    padding: var(--space-small);
+    border: 2px solid var(--color-very-dark-purple);
+}
+
+.buttons{
+    margin-bottom: var(--space-medium);
+}
+
+.purple-button a{
+    color: white;
+}
+
+.white-button a{
+    color: var(--color-very-dark-purple);
+}
+
+#modal-popup .buttons{
+display: grid;
+}
+
+.purple-button{
+    background-color: var(--color-very-dark-purple);
+}
+
+.white-button{
+    background-color: white;
+}
+
+.corner-button button{
+    color: var(--color-very-dark-purple);
+    font-weight: bolder;
+    font-size: 20px;
+    float: right;
+    position: absolute;
+    left: 87%;
+    border: 2px solid var(--color-very-dark-purple);
+    background-color: white;
+}
+
+#technologies-list{
+    color: var(--color-dark-purple);
+}
