@@ -10,7 +10,7 @@ export default function Grid({ sectionName, getIntro, filePath, getData, Compone
 
       <div className="grid">
         {/* Section Introduction Paragraph */}
-        {getIntro()}
+        <div>{getIntro()}</div>
 
         {/* Section Main Content */}
         {sectionName === "hero" || sectionName === "about" ? (
