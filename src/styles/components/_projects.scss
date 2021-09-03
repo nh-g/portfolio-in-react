@@ -5,11 +5,16 @@
   border-radius: 8px;
   padding: 0;
 }
+#projects h3 {
+  font-weight: 400;
+}
 
 .overlay img {
   opacity: 0.5;
 }
-
+.overlay h3 {
+  color: $grayDark;
+}
 .overlay-text {
   display: flex;
   position: absolute;
