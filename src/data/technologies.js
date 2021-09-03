@@ -1,27 +1,27 @@
 export function getTechnologies() {
   return [
     {
-      img: "skills/html5.svg",
+      imgFilePath: "skills/html5.svg",
       title: "HTML",
     },
     {
-      img: "skills/css.svg",
-      title: "CSS - SCSS - SASS",
+      imgFilePath: "skills/css.svg",
+      title: "Sass",
     },
     {
-      img: "skills/javascript.svg",
+      imgFilePath: "skills/javascript.svg",
       title: "Javascript",
     },
     {
-      img: "skills/react.svg",
+      imgFilePath: "skills/react.svg",
       title: "React",
     },
     {
-      img: "skills/figma.svg",
+      imgFilePath: "skills/figma.svg",
       title: "Figma",
     },
     {
-      img: "skills/gatsby.svg",
+      imgFilePath: "skills/gatsby.svg",
       title: "Gatsby",
     },
   ];
