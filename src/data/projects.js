@@ -1,49 +1,40 @@
-import vegan from "../assets/images/projects/vegan.jpg";
-import packageTracker from "../assets/images/projects/package.jpg";
-import todo from "../assets/images/projects/todo.jpg";
-import ecommerce from "../assets/images/projects/ecommerce.jpg";
-import bbq from "../assets/images/projects/bbq.jpg";
-import learning from "../assets/images/projects/learning.jpg";
-import netflix from "../assets/images/projects/netflix.jpg";
-
 export function getProjects() {
-  let locked = false;
+  // let false = false;
 
   return [
     {
       description: "Description",
       skills: ["Some", "other", "third"],
-      isLocked: false,
+      isReleased: true,
       name: "Vegan Restaurant Website",
-      image: vegan,
+      filePath: "projects/vegan.jpg",
       hosting: "https://github.com/nh-g",
       repository: "https://github.com/nh-g/portfolio-in-react",
     },
     {
       description: "some",
       skills: ["Some", "other", "third"],
-      isLocked: locked,
+      isReleased: false,
       name: "Package Tracker",
-      image: packageTracker,
+      filePath: "projects/package.jpg",
       hosting: "https://github.com/nh-g",
       repository: "https://github.com/nh-g/portfolio-in-react",
     },
     {
       description: "some",
       skills: ["Some", "other", "third"],
-      isLocked: locked,
+      isReleased: false,
       name: "Todo list TDD",
-      image: todo,
-
+      filePath: "projects/todo.jpg",
       hosting: "https://github.com/nh-g",
       repository: "https://github.com/nh-g/portfolio-in-react",
     },
     {
       description: "some",
       skills: ["Some", "other", "third"],
-      isLocked: locked,
+      isReleased: false,
       name: "e-Commerce website",
-      image: ecommerce,
+      filePath: "projects/ecommerce.jpg",
 
       hosting: "https://github.com/nh-g",
       repository: "https://github.com/nh-g/portfolio-in-react",
@@ -51,27 +42,27 @@ export function getProjects() {
     {
       description: "some",
       skills: ["Some", "other", "third"],
-      isLocked: locked,
+      isReleased: false,
       name: "BBQ restaurant website",
-      image: bbq,
+      filePath: "projects/bbq.jpg",
       hosting: "https://github.com/nh-g",
       repository: "https://github.com/nh-g/portofolio",
     },
     {
       description: "some",
       skills: ["Some", "other", "third"],
-      isLocked: locked,
+      isReleased: false,
       name: "Learning platform",
-      image: learning,
+      filePath: "projects/learning.jpg",
       hosting: "https://github.com/nh-g",
       repository: "https://github.com/nh-g/portofolio",
     },
     {
       description: "some",
       skills: ["Some", "other", "third"],
-      isLocked: locked,
+      isReleased: false,
       name: "Netflix clone",
-      image: netflix,
+      filePath: "projects/netflix.jpg",
       hosting: "https://github.com/nh-g",
       repository: "https://github.com/nh-g/portofolio",
     },
