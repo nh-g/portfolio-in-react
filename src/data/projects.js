@@ -1,10 +1,10 @@
-import vegan from "../images/vegan.jpg";
-import packageTracker from "../images/package.jpg";
-import todo from "../images/todo.jpg";
-import ecommerce from "../images/ecommerce.jpg";
-import bbq from "../images/bbq.jpg";
-import learning from "../images/learning.jpg";
-import netflix from "../images/netflix.jpg";
+import vegan from "../assets/images/projects/vegan.jpg";
+import packageTracker from "../assets/images/projects/package.jpg";
+import todo from "../assets/images/projects/todo.jpg";
+import ecommerce from "../assets/images/projects/ecommerce.jpg";
+import bbq from "../assets/images/projects/bbq.jpg";
+import learning from "../assets/images/projects/learning.jpg";
+import netflix from "../assets/images/projects/netflix.jpg";
 
 export function getProjects() {
   let locked = false;
@@ -16,8 +16,8 @@ export function getProjects() {
       isLocked: false,
       name: "Vegan Restaurant Website",
       image: vegan,
-      hosting: "https://github.com/DizdarArmin",
-      repository: "https://github.com/DizdarArmin/portofolio",
+      hosting: "https://github.com/nh-g",
+      repository: "https://github.com/nh-g/portfolio-in-react",
     },
     {
       description: "some",
@@ -25,8 +25,8 @@ export function getProjects() {
       isLocked: locked,
       name: "Package Tracker",
       image: packageTracker,
-      hosting: "https://github.com/DizdarArmin",
-      repository: "https://github.com/DizdarArmin/portofolio",
+      hosting: "https://github.com/nh-g",
+      repository: "https://github.com/nh-g/portfolio-in-react",
     },
     {
       description: "some",
@@ -35,8 +35,8 @@ export function getProjects() {
       name: "Todo list TDD",
       image: todo,
 
-      hosting: "https://github.com/DizdarArmin",
-      repository: "https://github.com/DizdarArmin/portofolio",
+      hosting: "https://github.com/nh-g",
+      repository: "https://github.com/nh-g/portfolio-in-react",
     },
     {
       description: "some",
@@ -45,8 +45,8 @@ export function getProjects() {
       name: "e-Commerce website",
       image: ecommerce,
 
-      hosting: "https://github.com/DizdarArmin",
-      repository: "https://github.com/DizdarArmin/portofolio",
+      hosting: "https://github.com/nh-g",
+      repository: "https://github.com/nh-g/portfolio-in-react",
     },
     {
       description: "some",
@@ -54,8 +54,8 @@ export function getProjects() {
       isLocked: locked,
       name: "BBQ restaurant website",
       image: bbq,
-      hosting: "https://github.com/DizdarArmin",
-      repository: "https://github.com/DizdarArmin/portofolio",
+      hosting: "https://github.com/nh-g",
+      repository: "https://github.com/nh-g/portofolio",
     },
     {
       description: "some",
@@ -63,8 +63,8 @@ export function getProjects() {
       isLocked: locked,
       name: "Learning platform",
       image: learning,
-      hosting: "https://github.com/DizdarArmin",
-      repository: "https://github.com/DizdarArmin/portofolio",
+      hosting: "https://github.com/nh-g",
+      repository: "https://github.com/nh-g/portofolio",
     },
     {
       description: "some",
@@ -72,8 +72,8 @@ export function getProjects() {
       isLocked: locked,
       name: "Netflix clone",
       image: netflix,
-      hosting: "https://github.com/DizdarArmin",
-      repository: "https://github.com/DizdarArmin/portofolio",
+      hosting: "https://github.com/nh-g",
+      repository: "https://github.com/nh-g/portofolio",
     },
   ];
 }
