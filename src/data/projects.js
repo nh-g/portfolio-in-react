@@ -5,7 +5,7 @@ export function getProjects() {
         "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
       technologies: ["Some", "other", "third"],
       isReleased: true,
-      title: "Vegan Restaurant Website",
+      title: "Vegan Restaurant Site",
       previewImg: "projects/vegan.jpg",
       appScreenShot: "screenshots/vegan.png",
       website: "https://github.com/nh-g",

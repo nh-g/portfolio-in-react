@@ -41,6 +41,10 @@
   grid-row-gap: var(--space-small);
 }
 
+#projects .list {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
 /*Technologies*/
 #tech {
   background: white;
@@ -65,4 +69,11 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   text-align: center;
+}
+
+@media (min-width: 542px) and (max-width: 768px) {
+  #projects .list {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+}
 }
