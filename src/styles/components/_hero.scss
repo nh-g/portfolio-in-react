@@ -1,12 +1,10 @@
 #hero {
     min-height: 100vh;
-    // min-height: calc(100vh-70px);
-    align-items: center;
 }
 #hero img{
     width: 95%;
-    margin-top: 70px;
-    height: 50vh;
+    // margin-top: 70px;
+    // height: 50vh;
 }
 #hero .section-name{
     display: none;
@@ -14,6 +12,7 @@
 #hero .grid{
     align-items: center;
     justify-items: center;
+    height: 80vh;
 }
 @media screen and (min-width: 541px) {
     #hero .grid{
