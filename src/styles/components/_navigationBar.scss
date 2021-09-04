@@ -39,7 +39,8 @@ nav {
   a {
     text-align: center;
     text-decoration: none;
-    color: $textGray;
+    color: var(--light-text);
+    // color: $textGray;
     font-weight: 400;
   }
 }

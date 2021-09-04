@@ -30,7 +30,7 @@ section:nth-child(even) {
 
 // For switching Theme 
 .theme-dark {
-  --dark-text: #292929;
+  --dark-text: #eeeeee;
   --light-text: #F9F8F8;  
   --dark-background: #2F4550;
   --light-background: #586F7C;
@@ -41,7 +41,7 @@ section:nth-child(even) {
 }
 
 .theme-light {
-  --dark-text: $black;
+  --dark-text: black;
   --light-text: #364152;
   --dark-background: #F4ECF4;
   --light-background: white;
