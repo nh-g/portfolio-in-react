@@ -1,21 +1,24 @@
 @import './variables';
 
 .App, html{
-    color: black;
+    color: var(--light-text);
+    background-color: var(--light-background);
     font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 }
 .main{
     margin-top: $header-height;
 }
 section {
+    // background-color: var(--light-background);
     padding-left: 15px;    
     padding-right: 15px;
     // margin-bottom: 20px;
 }
 
-
 section:nth-child(even) {
-  background: $prim;
+    background-color: var(--dark-background);
+    // background-color: $prim;
+
 }
 
 @media screen and (min-width: 658px) {
@@ -23,4 +26,26 @@ section:nth-child(even) {
         padding-left: 3rem;    
         padding-right: 3rem;
     }
+}
+
+// For switching Theme 
+.theme-dark {
+  --dark-text: #292929;
+  --light-text: #F9F8F8;  
+  --dark-background: #2F4550;
+  --light-background: #586F7C;
+  --footer-background: #6b7abb;
+
+//   --accent: #B8DBD9;
+//   --button-border: #B8DBD9;
+}
+
+.theme-light {
+  --dark-text: $black;
+  --light-text: #364152;
+  --dark-background: #F4ECF4;
+  --light-background: white;
+  --footer-background: #C4B4DC;
+//   --accent: #DBE7E4;
+//   --button-border: #5E4B56;
 }

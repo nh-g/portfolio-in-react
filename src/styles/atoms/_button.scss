@@ -45,7 +45,7 @@ display: grid;
     position: absolute;
     left: 87%;
     border: 2px solid var(--color-very-dark-purple);
-    background-color: white;
+    background-color: var(--light-background);
 }
 .corner-button{
     position: fixed;

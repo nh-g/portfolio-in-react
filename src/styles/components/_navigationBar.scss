@@ -1,7 +1,7 @@
 nav {
   position: fixed;
 //   background: rgba(239, 226, 242, 0.5);
-  background: white;
+  background-color: var(--light-background);
   height: $header-height;
   width: 100%;
   top: 0;
@@ -23,7 +23,7 @@ nav {
 }
 .bar {
   // background: $prim;
-  background: $white;
+  background-color: var(--light-background);
   height: $bar-height;
   width: 85%;
 

@@ -17,7 +17,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 10;
-    background-color: white;
+    background-color: var(--light-background);
     padding: 34px 24px 34px 24px;
     max-width: 768px;
     height: fit-content;

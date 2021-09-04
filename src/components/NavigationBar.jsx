@@ -1,4 +1,6 @@
-import BrandLogo from '../assets/images/NavLogo.png'
+import BrandLogo from '../assets/images/NavLogo.png';
+import ToggleTheme from './ToggleTheme';
+
 export default function NavigationBar() {
   return (
     <nav>
@@ -15,6 +17,7 @@ export default function NavigationBar() {
         <a href="#technologies">Tech</a>
         <a href="#contact">Contact</a>
       </div>
+      <ToggleTheme/>
     </nav>
   );
 }
