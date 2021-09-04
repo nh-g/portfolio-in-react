@@ -2,7 +2,7 @@ import { getProjects } from "../data/projects";
 import { getProjectsIntro } from "../data/aboutMe"; 
 
 import Grid from "../components/Grid";
-import ProjectCard from "../components/atoms/Card";
+import ProjectCard from "../components/atoms/ProjectCard";
 
 export default function Projects() {
   return (

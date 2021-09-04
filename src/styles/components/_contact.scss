@@ -8,9 +8,16 @@
     color: $textGray;
     text-decoration: none;
 }
-#contact ul {
+#contact .list {
     list-style: none;
-    padding: 5px;
+    row-gap: 0;
+
+}
+#contact li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 12px 0;
 }
 @media screen and (min-width: 541px) {
     #contact .grid{

@@ -4,7 +4,7 @@ import ImageLoader from "../ImageLoader";
 import Modal from "./Modal";
 import ModalProperties from "./ModalProperties";
 
-export default function Card({ item }) {
+export default function ProjectCard({ item }) {
   const { title, isReleased, previewImg } = item;
   const [isOpen, setIsOpen] = useState(false);
   return (
