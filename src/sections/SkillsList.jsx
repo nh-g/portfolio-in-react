@@ -1,5 +1,5 @@
 import { getTechnologies } from "../data/technologies";
-import { getSkillsIntro } from "../data/aboutMe";
+import { getSkillsIntro } from "../data/introTexts";
 
 import Grid from "../components/Grid";
 import SkillItem from "../components/atoms/SkillItem";

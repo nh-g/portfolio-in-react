@@ -1,4 +1,4 @@
-import { getContactIntro } from "../data/aboutMe";
+import { getContactIntro } from "../data/introTexts";
 import { getContactInfo } from "../data/contact";
 
 import Grid from "../components/Grid";
