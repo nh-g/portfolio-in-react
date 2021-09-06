@@ -18,7 +18,8 @@
     transform: translate(-50%, -50%);
     z-index: 10;
     background-color: var(--light-background);
-    padding: 28px 20px 28px 20px;
+    // padding: 28px 20px 28px 20px;
+    padding: 20px 16px 16px 20px;
     max-width: 768px;
     height: fit-content;
 }
@@ -41,7 +42,7 @@
 }
 
 #modal-popup{
-    max-width: 250px; 
+    max-width: 290px; 
     height: fit-content;
 }
 
@@ -85,14 +86,14 @@
     }
 }
 
-@media screen and (min-width: 541px) {
+@media screen and (min-width: 530px) {
     .modal{
         width: 450px;
     }
     #modal-popup{
         display: grid;
         max-width: 450px; 
-        grid-template-columns: 56% 40%;
+        grid-template-columns: 45% 52%;
         column-gap: 3%;
     }
 }

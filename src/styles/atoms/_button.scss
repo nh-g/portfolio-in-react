@@ -7,8 +7,6 @@
 .button{
     margin-top: 20px;
     width: 100%;
-    margin-right: var(--space-small);
-    margin-left: var(--space-small);
     margin-bottom: 3px;
     padding: var(--space-small);
     border: 2px solid $black;
@@ -48,14 +46,21 @@ display: grid;
 }
 .corner-button{
     position: fixed;
-    top: 6px;
-    right: 45px;
+    top: 4px;
+    right: 43px;
     font-size: 3em;
 }
 
 @media screen and (max-height: 568px){
     .corner-button{
-        top: 30px;
-        right: 36px;
+        top: 18px;
+        right: 37px;
     }
+}
+@media screen and (min-width: 530px) {
+    .corner-button{
+        top: 6px;
+        right: 32px;
+    }
+
 }
