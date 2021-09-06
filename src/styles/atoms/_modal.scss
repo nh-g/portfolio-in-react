@@ -18,7 +18,7 @@
     transform: translate(-50%, -50%);
     z-index: 10;
     background-color: var(--light-background);
-    padding: 34px 24px 34px 24px;
+    padding: 28px 20px 28px 20px;
     max-width: 768px;
     height: fit-content;
 }
@@ -76,8 +76,13 @@
     flex-wrap: wrap;
     font-size: 11px;
     line-height: 1.5em;
-    height: 6.5em;       /* height is 2x line-height, so two lines will display */
+    height: 10em;       /* height is 2x line-height, so two lines will display */
     overflow: hidden;  /* prevents extra lines from being visible */
+}
+@media screen and (max-height: 568px){
+    .row {
+        height: 6.5em;
+    }
 }
 
 @media screen and (min-width: 541px) {
@@ -90,11 +95,12 @@
         grid-template-columns: 56% 40%;
         column-gap: 3%;
     }
-
 }
 @media screen and (min-width: 767px) {
     .modal{
         width: 680px;
+        padding: 34px 24px 34px 24px;
+
     }
     #modal-popup{
         display: grid;
@@ -102,8 +108,4 @@
         grid-template-columns: 56% 40%;
         column-gap: 3%;
     }
-    .row {
-        height: 10em;
-    }
-
 }

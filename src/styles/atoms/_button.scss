@@ -38,26 +38,24 @@ display: grid;
 }
 
 .corner-button button{
-    color: var(--color-very-dark-purple);
     font-weight: bolder;
-    font-size: 20px;
+    font-size: 22px;
     float: right;
     position: absolute;
     left: 87%;
-    border: 2px solid var(--color-very-dark-purple);
-    background-color: var(--light-background);
+    border: none;
+    background-color: transparent;
 }
 .corner-button{
     position: fixed;
-    top: 10px;
-    right: 30px;
+    top: 6px;
+    right: 45px;
     font-size: 3em;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-height: 568px){
     .corner-button{
-        top: 20px;
-        right: 24px;
+        top: 30px;
+        right: 36px;
     }
-
 }
