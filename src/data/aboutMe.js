@@ -1,9 +1,10 @@
-
+// This should be json data -1
 export function getAboutMe() {
   return (
     <p>
-      I have 5 year experience working in Japan in business development, consulting, project management, for major players in
-      HR and IT. Currently, I am brushing up my skill at Novare Frontend Camp <br />
+      I have 5 year experience working in Japan in business development,
+      consulting, project management, for major players in HR and IT. Currently,
+      I am brushing up my skill at Novare Frontend Camp <br />
       {/* <br />
       Moving to Stockholm in late of 2018, I took a challenge starting a family
       in a new continent. And with a beautiful chaos since the born of my child and what-called new mom
@@ -29,5 +30,3 @@ export function getHero() {
     </h1>
   );
 }
-
-

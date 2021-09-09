@@ -1,3 +1,4 @@
+// This should be json data -1
 export function getProjectsIntro() {
   return (
     <p>
@@ -7,6 +8,7 @@ export function getProjectsIntro() {
   );
 }
 
+// This should be json data -1
 export function getSkillsIntro() {
   return (
     <p>
@@ -15,6 +17,7 @@ export function getSkillsIntro() {
   );
 }
 
+// This should be json data -1
 export function getContactIntro() {
   return <p>Say Hi for find me on other platforms: </p>;
 }

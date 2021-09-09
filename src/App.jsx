@@ -5,7 +5,7 @@ import Hero from "./sections/Hero";
 import About from "./sections/About";
 import Projects from "./sections/ProjectsList";
 import Skills from "./sections/SkillsList";
-import ContactMe from './sections/ContactMe';
+import ContactMe from "./sections/ContactMe";
 import Footer from "./components/Footer";
 
 import { keepTheme } from "./utilities/themes";
@@ -21,10 +21,10 @@ export default function App() {
         <Hero />
         <About />
         <Projects />
-        <Skills/>
-        <ContactMe/>
+        <Skills />
+        <ContactMe />
       </div>
-      <Footer/>
+      <Footer />
     </div>
   );
 }

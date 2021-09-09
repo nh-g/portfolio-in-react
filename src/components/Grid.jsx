@@ -1,8 +1,14 @@
 import MappingList from "./atoms/MappingList";
 import ImageLoader from "./ImageLoader";
 
-export default function Grid({ sectionName, getIntro, filePath, getData, Component }) {
-
+// More than 3 function arguments -1
+export default function Grid({
+  sectionName,
+  getIntro,
+  filePath,
+  getData,
+  Component,
+}) {
   return (
     <section id={`${sectionName}`} className="reverse">
       {/* Tittle */}

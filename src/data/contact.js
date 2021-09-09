@@ -1,3 +1,4 @@
+// the object has a nice structure, but should be json data not a function -1
 export function getContactInfo() {
   return [
     {
