@@ -1,66 +1,76 @@
 nav {
   position: fixed;
-//   background: rgba(239, 226, 242, 0.5);
   background-color: var(--light-background);
   height: $header-height;
   width: 100%;
   top: 0;
   left: 0;
-
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-
   z-index: 100;
 
+  a {
+  text-align: center;
+  text-decoration: none;
+  color: var(--light-text);
+  font-weight: 400;
 }
+
+  .container--toggle{
+    margin-right: 15px;
+  }
+
 .nav-logo {
-  position: absolute;
   img {
     height: 50px;
     width: 50px;
   }
 }
 .bar {
-  // background: $prim;
   background-color: var(--light-background);
-  height: $bar-height;
-  width: 85%;
-
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-
-  justify-content: center;
   align-items: center;
+  display: flex;
+  justify-content: space-around;
 
-  border-radius: 44px;
-  padding: 0 10px;
-
-  a {
-    text-align: center;
-    text-decoration: none;
-    color: var(--light-text);
-    // color: $textGray;
-    font-weight: 400;
+  a{
+    padding: 0 3px;
   }
 }
+}
+
 @media screen and (min-width: 541px) {
+  nav {
+    .container--toggle{
+      margin-right: 3rem;
+    }
     .nav-logo {
-      left: 3rem;
+      margin-left: 3rem;
     }
-    .bar {
-      width: fit-content;
-      grid-template-columns: repeat(4, 1fr);
-      column-gap: 30px;
-      div {
-        display: none;
-    }
+    .bar a {
+      padding: 0 1rem;
   }
-    
 }
 
-@media screen and (max-width: 767px) {
-    .container--toggle {
-      display: none;
+@media screen and (max-width: 400px) {
+  nav {
+    .bar a {
+      padding: 0 5px;
+  }
+}
+}
+
+}
+@media screen and (max-width: 320px) {
+  nav {
+    .container--toggle{
+      margin-right: 0;
     }
+    .nav-logo {
+      margin-left: 0;
+    }
+    .bar a {
+      padding: 0 1.5px;
+  }
+}
 }

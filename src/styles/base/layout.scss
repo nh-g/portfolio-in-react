@@ -1,6 +1,7 @@
 @import './variables';
 
-.App, html{
+.App, html, body{
+    font-size: 17px;
     color: var(--light-text);
     background-color: var(--light-background);
     font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
@@ -27,7 +28,11 @@ section:nth-child(even) {
         padding-right: 3rem;
     }
 }
-
+@media screen and (max-width: 320px) {
+    .App, html, body{
+        font-size: 13px;
+    }
+}
 // For switching Theme 
 .theme-dark {
   --dark-text: #eeeeee;
