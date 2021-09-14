@@ -63,8 +63,8 @@
 }
 
 .pill {
-    border: 1px solid gray;
-    color: gray;
+    border: 1px solid var(--pill);
+    color: var(--pill);
     margin: 4px;
     border-radius: 25px;
     padding: 5px 10px 5px 10px;

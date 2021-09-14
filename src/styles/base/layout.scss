@@ -1,56 +1,66 @@
-@import './variables';
+@import "./variables";
 
-.App, html, body{
-    font-size: 17px;
-    color: var(--light-text);
-    background-color: var(--light-background);
-    font-family: system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+.App,
+html,
+body {
+  font-size: 17px;
+  color: var(--light-text);
+  background-color: var(--light-background);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
-.main{
-    margin-top: $header-height;
+.main {
+  margin-top: $header-height;
 }
 section {
-    // background-color: var(--light-background);
-    padding-left: 15px;    
-    padding-right: 15px;
-    // margin-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 section:nth-child(even) {
-    background-color: var(--dark-background);
-    // background-color: $prim;
-
+  background-color: var(--dark-background);
 }
 
 @media screen and (min-width: 658px) {
-    section{
-        padding-left: 3rem;    
-        padding-right: 3rem;
-    }
+  section {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 }
 @media screen and (max-width: 320px) {
-    .App, html, body{
-        font-size: 13px;
-    }
+  .App,
+  html,
+  body {
+    font-size: 13px;
+  }
 }
-// For switching Theme 
+// For switching Theme
 .theme-dark {
   --dark-text: #eeeeee;
-  --light-text: #F9F8F8;  
-  --dark-background: #2F4550;
-  --light-background: #586F7C;
+  --light-text: #f9f8f8;
+  --dark-background: #2f4550;
+  --light-background: #586f7c;
+
   --footer-background: #6b7abb;
 
-//   --accent: #B8DBD9;
-//   --button-border: #B8DBD9;
+  --button-dark: #2f4550;
+  --button-light: #b8dbd9;
+
+  --pill: #b8dbd9;
+
 }
 
 .theme-light {
   --dark-text: black;
   --light-text: #364152;
-  --dark-background: #F4ECF4;
+  --dark-background: #f4ecf4;
   --light-background: white;
-  --footer-background: #C4B4DC;
-//   --accent: #DBE7E4;
-//   --button-border: #5E4B56;
+
+  --footer-background: #c4b4dc;
+
+  --button-dark: #5e4b56;
+  --button-light: white;
+
+  --pill: #5e4b56;
 }
