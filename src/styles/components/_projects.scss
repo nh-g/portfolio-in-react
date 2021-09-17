@@ -1,8 +1,8 @@
 /*Projects*/
 #projects img {
-  width: 130px;
+  width: 8rem;
   height: auto;
-  border-radius: 8px;
+  border-radius: 0.5rem;
   padding: 0;
 }
 #projects h3 {
@@ -18,12 +18,12 @@
 .overlay-text {
   display: flex;
   position: absolute;
-  margin-top: 20px;
-  margin-left: 20px;
+  margin-top: 1.3rem;
+  margin-left: 1.3rem;
 }
 
 .overlay-text p {
-  font-size: 14px;
+  font-size: 0.8rem;
   color: black;
   text-transform: uppercase;
   z-index: 900;
@@ -32,7 +32,7 @@
 #projects h3 {
   margin-bottom: var(--space-small);
   margin: 0;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 #projects {
@@ -49,7 +49,7 @@
 }
 
 #projects .list {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
 }
 
 /*Technologies*/
@@ -78,10 +78,9 @@
   text-align: center;
 }
 
-// @media (min-width: 542px) and (max-width: 768px) {
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 960px) {
   #projects .list {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     row-gap: 20px;
 }
 }

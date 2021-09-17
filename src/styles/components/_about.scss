@@ -1,31 +1,28 @@
 #about .grid{
-    height: 100%;
-    grid-auto-flow: dense;
     padding-bottom: 20px;
-}
-#about> p{
-  grid-column: 1;
-}
 
-#about> img {
-  grid-column: 2;
-}
-
-#about.reverse> p{
-  grid-column: 2;
-}
-
-#about.reverse> img {
-  grid-row: 1;
-  grid-column: 1;
-}
-@media screen and (min-width: 541px) {
-    #about .grid{
-        grid-template-columns:  60% 35%;
-        column-gap: 5%;    
-        & img{
-          padding-top: 20px;
-          width: 100%;
-    }    
+    & img {
+      object-fit: cover;
+      max-width: 100%;
     }
+    & p {
+      max-width: 600px;
+    }
+
+}
+
+@media screen and (min-width: 541px) {
+  #about .grid{
+      grid-template-columns:  60% 45%;
+      column-gap: 5%;    
+      & img{
+        padding-top: 20px;
+        width: 60%;
+      }
+  }
+}
+@media screen and (min-width: 1920px) {
+      #about .grid p{
+        max-width: 960px;
+      }
 }
