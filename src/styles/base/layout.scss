@@ -3,6 +3,7 @@
 .App,
 html,
 body {
+  margin: 0;
   font-size: 17px;
   color: var(--light-text);
   background-color: var(--light-background);
@@ -35,6 +36,7 @@ section:nth-child(even) {
     font-size: 13px;
   }
 }
+
 // For switching Theme
 .theme-dark {
   --dark-text: #eeeeee;
