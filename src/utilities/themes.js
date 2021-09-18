@@ -5,13 +5,13 @@ function setTheme(themeName) {
 
 function keepTheme() {
   if (localStorage.getItem("theme")) {
-    if (localStorage.getItem("theme") === "theme-dark") {
-      setTheme("theme-dark");
-    } else if (localStorage.getItem("theme") === "theme-light") {
+    if (localStorage.getItem("theme") === "theme-light") {
       setTheme("theme-light");
+    } else if (localStorage.getItem("theme") === "theme-dark") {
+      setTheme("theme-dark");
     }
   } else {
-    setTheme("theme-dark");
+    setTheme("theme-light");
   }
 }
 
