@@ -4,9 +4,17 @@
   height: auto;
   border-radius: 0.5rem;
   padding: 0;
+  &:hover{
+    transform: scale(1.2);
+  }
+
 }
 #projects h3 {
   font-weight: 400;
+  &:hover{
+    transform: scale(1.2);
+  }
+
 }
 
 .overlay img {
