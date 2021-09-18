@@ -7,26 +7,26 @@ export default function ToggleTheme() {
   let theme = localStorage.getItem("theme");
 
   const handleOnClick = () => {
-    if (localStorage.getItem("theme") === "theme-dark") {
-      setTheme("theme-light");
-      setTogClass("light");
-    } else {
+    if (localStorage.getItem("theme") === "theme-light") {
       setTheme("theme-dark");
       setTogClass("dark");
+    } else {
+      setTheme("theme-light");
+      setTogClass("light");
     }
   };
 
   useEffect(() => {
-    if (localStorage.getItem("theme") === "theme-dark") {
-      setTogClass("dark");
-    } else if (localStorage.getItem("theme") === "theme-light") {
+    if (localStorage.getItem("theme") === "theme-light") {
       setTogClass("light");
+    } else if (localStorage.getItem("theme") === "theme-dark") {
+      setTogClass("dark");
     }
   }, [theme]);
 
   return (
     <div className="container--toggle">
-      {togClass === "light" ? (
+      {togClass === "dark" ? (
         <input
           type="checkbox"
           id="toggle"
