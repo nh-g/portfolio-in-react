@@ -2,23 +2,22 @@ export function getProjects() {
   return [
     {
       description:
-        "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
+        "This is a multiple-page website of a vegan restaurant where users can navigate around pages, check address pinned on an interactive map and be able to send a contact form. It uses:",
       technologies: [
         "React",
-        "Long name tech",
-        "Recoils",
-        "TypeScript",
-        "React",
-        "Long name tech",
-        "Recoils",
-        "TypeScript",
+        "React router dom",
+        "Leaflet map",
+        "Emailjs-com",
+        "React leaflet",
+        "CSS",
+        "React Dom",
       ],
       isReleased: true,
       title: "Vegan Restaurant Site",
       previewImg: "projects/vegan.jpg",
       appScreenShot: "screenshots/vegan.png",
-      website: "https://github.com/nh-g",
-      github: "https://github.com/nh-g/portfolio-in-react",
+      website: "https://veggie-giang.web.app/",
+      github: "https://github.com/nh-g/veggies",
     },
     {
       description:
