@@ -43,7 +43,12 @@ h4 {
 // }
 @media screen and (min-width: 1800px) {
   .App, html, body {
-    font-size: var(--font-text-ultra-desktop);
+    font-size: var(--font-text-big-desktop);
   }
 }
 
+@media screen and (min-width: 2500px) {
+  .App, html, body {
+    font-size: var(--font-text-ultra-desktop);
+  }
+}
