@@ -25,7 +25,7 @@ export function getTechnologies() {
       title: "Gatsby",
     },
     {
-      imgFilePath: "skills/github.svg",
+      imgFilePath: "skills/git.svg",
       title: "Git",
     },
     {
@@ -39,6 +39,14 @@ export function getTechnologies() {
     {
       imgFilePath: "skills/design.svg",
       title: "Design",
+    },
+    {
+      imgFilePath: "skills/typescript.svg",
+      title: "TypeScript",
+    },
+    {
+      imgFilePath: "skills/docker.svg",
+      title: "Docker",
     },
   ];
 }
