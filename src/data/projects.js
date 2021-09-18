@@ -13,7 +13,7 @@ export function getProjects() {
         "React Dom",
       ],
       isReleased: true,
-      title: "Vegan Restaurant Site",
+      title: "Vegan Restaurant",
       previewImg: "projects/vegan.jpg",
       appScreenShot: "screenshots/vegan.png",
       website: "https://veggie-giang.web.app/",

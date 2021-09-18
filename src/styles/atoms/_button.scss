@@ -7,12 +7,12 @@
 .button{
     margin-top: 20px;
     width: 100%;
-    margin-bottom: 3px;
-    padding: var(--space-small);
-}
-
-.button{
     margin-bottom: var(--space-medium);
+    padding: var(--space-small);
+
+    & a {
+        font-size: 0.85rem;
+    }
 }
 
 .black {
