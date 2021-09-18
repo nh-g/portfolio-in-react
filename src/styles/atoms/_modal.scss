@@ -47,11 +47,12 @@
 
 #modal-popup p{
     font-size: 14px;
-    margin: var(--space-small);
+    text-align: center;
 }
 
 #modal-popup h3{
     font-weight: 400;
+    text-align: center;
     margin-top: 0;
     margin: 0;
 }
@@ -93,6 +94,12 @@
         max-width: 450px; 
         grid-template-columns: 45% 52%;
         column-gap: 3%;
+    }
+    #modal-popup h3{
+        text-align: left;
+    }
+    #modal-popup p{
+        text-align: left;
     }
 }
 @media screen and (min-width: 767px) {
