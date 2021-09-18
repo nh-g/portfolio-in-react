@@ -118,10 +118,10 @@
 
 @media screen and (min-width: 1024px) {
     .modal{
-        width: 920px;
+        width: 1000px;
     }
     #modal-popup{
-        max-width: 830px; 
+        max-width: 920px; 
     }
     #modal-popup p{
         font-size: 0.85rem;
@@ -131,16 +131,21 @@
     }
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1800px) {
     .modal{
-        width: 1920px;
+        width: 2000px;
     }
     #modal-popup{
-        max-width: 1800px; 
+        max-width: 1920px;
     }
     .row {
-        // font-size: 0.6rem;
-        height: 11em;       /* height is 2x line-height, so two lines will display */
+        height: 11em;       
+    }
+    #modal-popup p{
+        font-size: 0.65rem;
+    }
+    .modal button {
+        font-size: 0.8rem;
     }
 
 }
