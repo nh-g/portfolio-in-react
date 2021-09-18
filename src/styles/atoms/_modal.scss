@@ -102,7 +102,7 @@
         text-align: left;
     }
 }
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 768px) {
     .modal{
         width: 680px;
         padding: 34px 24px 34px 24px;
@@ -129,23 +129,4 @@
     .row {
         font-size: 0.6rem;
     }
-}
-
-@media screen and (min-width: 1800px) {
-    .modal{
-        width: 2000px;
-    }
-    #modal-popup{
-        max-width: 1920px;
-    }
-    .row {
-        height: 11em;       
-    }
-    #modal-popup p{
-        font-size: 0.65rem;
-    }
-    .modal button {
-        font-size: 0.8rem;
-    }
-
 }
