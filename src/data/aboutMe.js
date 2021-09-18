@@ -17,15 +17,13 @@ export function getAboutMe() {
         <br />❖ UI/UX design <br />❖ Responsive and interactive design
         <br />❖ Web development
       </p>
-      <button className="button black">
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://drive.google.com/file/d/10X6BnynfWezYfWR-CkU4qXS04izgziXA/view"
-        >
-          Check Resume
-        </a>
-      </button>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://drive.google.com/file/d/10X6BnynfWezYfWR-CkU4qXS04izgziXA/view"
+      >
+        <button className="button black">Check Resume</button>
+      </a>
     </>
   );
 }

@@ -1,31 +1,22 @@
-.button a{
+a{
     text-decoration: none;
-    font-size: 15px;
-    font-weight: 500;
 }
 
-.button{
+button{
     margin-top: 20px;
     width: 100%;
     margin-bottom: var(--space-medium);
-    padding: var(--space-small);
-
+    padding: 12px;
+    font-size: 1rem;
     &:hover{
         transform: scale(1.2);
-    }
-
-    & a {
-        font-size: 0.85rem;
     }
 }
 
 .black {
     border: 2px solid var(--button-dark);
     background-color: var( --button-dark);
-    & a{
-        color: white;
-        // color: var(--dark-text);
-    }
+    color: white;
 }
 
 .white {
@@ -38,7 +29,7 @@
 }
 
 #modal-popup .button{
-display: grid;
+    display: grid;
 }
 
 .corner-button button{

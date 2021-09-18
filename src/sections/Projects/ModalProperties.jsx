@@ -21,16 +21,12 @@ export default function ModalProperties({ item }) {
           <MappingList Component={Pill} getData={technologies} />
         </div>
         {/* <div className="buttons"> */}
-        <button className="button black">
-          <a target="_blank" rel="noopener noreferrer" href={website}>
-            Visit website/app
-          </a>
-        </button>
-        <button className="button white">
-          <a target="_blank" rel="noopener noreferrer" href={github}>
-            Git repository
-          </a>
-        </button>
+        <a target="_blank" rel="noopener noreferrer" href={website}>
+          <button className="button black">Visit website/app</button>
+        </a>
+        <a target="_blank" rel="noopener noreferrer" href={github}>
+          <button className="button white">Git repository</button>
+        </a>
         {/* </div> */}
       </div>
     </div>
