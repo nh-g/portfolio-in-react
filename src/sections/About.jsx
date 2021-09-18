@@ -5,6 +5,9 @@ export default function About() {
     const filePath  = "landing/about.png";
     const sectionName="about";
   return (
-    <Grid filePath={filePath} getIntro={getAboutMe} sectionName={sectionName} />
-  );
-}
+      <Grid
+        filePath={filePath}
+        getIntro={getAboutMe}
+        sectionName={sectionName}
+      />
+)}

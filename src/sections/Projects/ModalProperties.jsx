@@ -1,7 +1,11 @@
+// NPM packages
 import React from "react";
+
+// project files
 import ImageLoader from "../../components/ImageLoader";
 import MappingList from "../../components/MappingList";
 import Pill from './Pill';
+
 export default function ModalProperties({ item }) {
   const { title, description, github, website, appScreenShot, technologies } = item;
 

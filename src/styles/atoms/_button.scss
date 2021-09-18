@@ -10,6 +10,10 @@
     margin-bottom: var(--space-medium);
     padding: var(--space-small);
 
+    &:hover{
+        transform: scale(1.2);
+    }
+
     & a {
         font-size: 0.85rem;
     }
