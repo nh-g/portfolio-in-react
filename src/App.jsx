@@ -1,5 +1,7 @@
+// NPM packages
 import { useEffect } from "react";
 
+// project files
 import NavigationBar from "./components/NavigationBar";
 import Hero from "./sections/Hero";
 import About from "./sections/About";
@@ -7,13 +9,14 @@ import Projects from "./sections/ProjectsList";
 import Skills from "./sections/SkillsList";
 import ContactMe from './sections/ContactMe';
 import Footer from "./components/Footer";
-
 import { keepTheme } from "./utilities/themes";
 import "./styles/styles.scss";
+
 export default function App() {
   useEffect(() => {
     keepTheme();
   });
+  
   return (
     <div className="App">
       <NavigationBar />
