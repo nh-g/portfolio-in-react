@@ -1,6 +1,6 @@
 #technologies img {
-  width: 3rem;
-  height: 3rem;
+  width: 2.5rem;
+  height: 2.5rem;
 }
 
 #technologies caption {
@@ -10,7 +10,7 @@
 
 #technologies .list {
   margin-top: 15px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 @media screen and (max-width: 320px){
@@ -18,8 +18,11 @@
       width: 30px;
       height: 35px;
     }
+}
+
+@media screen and (min-width: 1024px){
     #technologies .list{
       margin-top: 10px;
-      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 }
