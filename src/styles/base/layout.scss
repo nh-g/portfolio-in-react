@@ -22,10 +22,17 @@ section:nth-child(even) {
   background-color: var(--dark-background);
 }
 
-@media screen and (min-width: 658px) {
+@media screen and (min-width: 550px) {
   section {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  section {
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 }
 @media screen and (min-width: 1400px) {

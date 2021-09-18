@@ -12,15 +12,15 @@
 }
 
 .section-name {
-    margin-top: 50px;
+    margin-top: 2rem;
     text-transform: uppercase;
     padding-top: 2rem;
 }
 
 @media screen and (min-width: 541px) {
     .grid{
-        grid-template-columns:  25% 70%;
-        column-gap: 5%;    
+        grid-template-columns:  25% 65%;
+        column-gap: 10%;    
     }
 }
 

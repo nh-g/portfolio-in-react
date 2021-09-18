@@ -1,6 +1,11 @@
 #technologies img {
-  width: 40px;
-  height: 45px;
+  width: 3rem;
+  height: 3rem;
+}
+
+#technologies caption {
+  text-align: center;
+  color: var(--light-text);
 }
 
 #technologies .list {
