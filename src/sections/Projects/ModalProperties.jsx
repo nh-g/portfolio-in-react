@@ -1,6 +1,6 @@
 import React from "react";
-import ImageLoader from "../ImageLoader";
-import MappingList from "./MappingList";
+import ImageLoader from "../../components/ImageLoader";
+import MappingList from "../../components/MappingList";
 import Pill from './Pill';
 export default function ModalProperties({ item }) {
   const { title, description, github, website, appScreenShot, technologies } = item;

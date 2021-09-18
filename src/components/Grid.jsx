@@ -1,4 +1,4 @@
-import MappingList from "./atoms/MappingList";
+import MappingList from "./MappingList";
 import ImageLoader from "./ImageLoader";
 
 export default function Grid({ sectionName, getIntro, filePath, getData, Component }) {

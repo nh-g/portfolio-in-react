@@ -1,4 +1,4 @@
-import ImageLoader from "../ImageLoader";
+import ImageLoader from "../../components/ImageLoader";
 
 export default function SkillItem({ item }) {
   const { title, imgFilePath } = item;

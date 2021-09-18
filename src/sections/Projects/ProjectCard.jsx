@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import ImageLoader from "../ImageLoader";
+import ImageLoader from "../../components/ImageLoader";
 import Modal from "./Modal";
 import ModalProperties from "./ModalProperties";
 
