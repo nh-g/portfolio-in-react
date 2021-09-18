@@ -13,15 +13,17 @@
       margin-top: 0;
       width: 50%;
       background-color: var(--pill);
+      background-color: white;
+      border: none;
       & a {
         font-size: 1rem;
-        color: white;
+        color: #364152;
         &:hover{
-          color: var(--pill);
+          color: white;
         }
       }
       &:hover{
-        background-color: var(--light-background);
+        background-color: var(--pill);
         transform: none;
       }
     }
