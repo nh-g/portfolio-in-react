@@ -3,14 +3,21 @@
   height: 2.5rem;
 }
 
-#technologies caption {
-  text-align: center;
+#technologies figcaption {
   color: var(--light-text);
+  font-size: .75rem;
+  text-align: center;
+}
+
+#technologies figure{
+  display: inline-block;
 }
 
 #technologies .list {
   margin-top: 15px;
   grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 1rem;
+  row-gap: 1rem;
 }
 
 @media screen and (max-width: 320px){
