@@ -3,7 +3,7 @@ import "../styles/components/_toggleTheme.scss";
 import { setTheme } from "../utilities/themes";
 
 export default function ToggleTheme() {
-  const [togClass, setTogClass] = useState("dark");
+  const [togClass, setTogClass] = useState("light");
   let theme = localStorage.getItem("theme");
 
   const handleOnClick = () => {
