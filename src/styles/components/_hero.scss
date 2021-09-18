@@ -14,8 +14,8 @@
     justify-items: center;
     height: 80vh;
 }
-#hero h1, h3 {
-    color: var(--dark-text);
+#hero h1 {
+    color: var(--cta);
 }
 @media screen and (min-width: 541px) {
     #hero .grid{
