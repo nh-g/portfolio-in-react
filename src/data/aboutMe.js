@@ -17,13 +17,27 @@ export function getAboutMe() {
         <br />❖ UI/UX design <br />❖ Responsive and interactive design
         <br />❖ Web development
       </p>
-      <a
+      {/* <a
         target="_blank"
         rel="noopener noreferrer"
         href="https://drive.google.com/file/d/10X6BnynfWezYfWR-CkU4qXS04izgziXA/view"
       >
         <button className="button black">Check Resume</button>
+      </a> */}
+      <div className="spacer"></div>
+      <a
+        target="_blank"
+        className="cta"
+        rel="noopener noreferrer"
+        href="https://drive.google.com/file/d/10X6BnynfWezYfWR-CkU4qXS04izgziXA/view"
+      >
+        <span>Check Resume</span>
+        <svg width="13px" height="10px" viewBox="0 0 13 10">
+          <path d="M1,5 L11,5"></path>
+          <polyline points="8 1 12 5 8 9"></polyline>
+        </svg>
       </a>
+      <div className="spacer"></div>
     </>
   );
 }

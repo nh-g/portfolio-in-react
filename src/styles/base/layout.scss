@@ -22,6 +22,9 @@ section:nth-child(even) {
   background-color: var(--dark-background);
 }
 
+.spacer {
+  height: 1.5rem;
+}
 
 @media screen and (min-width: 320px) {
   section {
@@ -70,6 +73,7 @@ section:nth-child(even) {
   --button-light: #b8dbd9;
 
   --pill: #b8dbd9;
+  --cta:#b8dbd9; 
 
 }
 
@@ -85,4 +89,5 @@ section:nth-child(even) {
   --button-light: white;
 
   --pill: #5e4b56;
+  --cta: #C4B4DC;
 }

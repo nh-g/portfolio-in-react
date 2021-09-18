@@ -1,5 +1,9 @@
 a{
     text-decoration: none;
+    color: var(--light-text);
+    &:hover{
+        color: white;
+    }
 }
 
 button{
@@ -60,4 +64,59 @@ button{
         right: 37px;
     }
 
+}
+
+.cta{
+    a{
+        color: white;
+}
+    position: relative;
+    margin: auto;
+    padding: 1rem 22px;
+    transition: all .2s ease;
+    &:before{
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        border-radius: 1.65rem;
+        background: var(--cta);
+        width: 3.3rem;
+        height: 3.3rem;
+        transition: all .3s ease;
+    }
+    span{
+        position: relative;
+        font-size: 0.85rem;
+        line-height: 1.1rem;
+        font-weight: 800;
+        letter-spacing: .17rem;
+        text-transform: uppercase;
+        vertical-align: middle;
+    }
+    svg{
+        position: relative;
+        top: 0;
+        margin-left: 10px;
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke: var(--dark-text);
+        stroke-width: 2;
+        transform: translateX(-5px);
+        transition: all .3s ease;
+    }
+    &:hover{
+        &:before{
+            width: 100%;
+            background: var(--cta);
+        }
+        svg{
+            transform: translateX(0);
+        }
+}
+    &:active{
+        transform: scale(.96)
+  }
 }
