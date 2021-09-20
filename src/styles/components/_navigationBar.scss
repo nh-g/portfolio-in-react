@@ -23,6 +23,7 @@ nav {
 
 .nav-logo {
   img {
+    padding-left: 1.2rem;
     height: 2.5rem;
     width: 2.5rem;
   }
@@ -72,6 +73,9 @@ nav {
     }
     .nav-logo {
       margin-left: 0;
+      img {
+        padding-left: 0;
+      }
     }
     .bar a {
       padding: 0 1.5px;
