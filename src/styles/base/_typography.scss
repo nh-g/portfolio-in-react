@@ -36,12 +36,13 @@ h4 {
     font-size: var(--font-text-desktop);
   }
 }
-// @media screen and (min-width: 1200px) {
-//   .App, html, body {
-//     font-size: var(--font-text-big-desktop);
-//   }
-// }
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1200px) {
+  .App, html, body {
+    font-size: var(--font-text-medium-desktop);
+  }
+}
+
+@media screen and (min-width: 1700px) {
   .App, html, body {
     font-size: var(--font-text-big-desktop);
   }
@@ -50,5 +51,10 @@ h4 {
 @media screen and (min-width: 2500px) {
   .App, html, body {
     font-size: var(--font-text-ultra-desktop);
+  }
+}
+@media screen and (min-width: 3000px) {
+  .App, html, body {
+    font-size: var(--font-text-xxultra-desktop);
   }
 }
