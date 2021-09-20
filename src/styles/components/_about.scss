@@ -2,6 +2,7 @@
   padding-bottom: 20px;
 
   & img {
+    height: 20rem;
     object-fit: cover;
     max-width: 100%;
   }
@@ -26,9 +27,6 @@
   #about .grid{
       grid-template-columns:  60% 35%;
       column-gap: 5%;    
-      & img{
-        padding-top: 20px;
-      }
   }
 }
 @media screen and (min-width: 1920px) {
