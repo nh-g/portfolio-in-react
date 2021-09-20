@@ -43,15 +43,15 @@ export function getAboutMe() {
 }
 export function getHero() {
   return (
-    <h1>
-      ’Hi.!
+    <div>
+      <h1> ’Hi.! </h1>
       <h3>I am Giang, a frontend developer who </h3>
       <p>... grew up in Vietnam, living with two Japanese, in Stockholm.</p>
       <p>
         I like cycling, wandering in nature, playing with kids, and learning new
         things.
       </p>
-    </h1>
+    </div>
   );
 }
 
