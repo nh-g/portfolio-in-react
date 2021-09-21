@@ -1,6 +1,6 @@
 footer{
     width: 100%;
-    background-color: var(--footer-background);
+    background-color: var(--dark-background);
     overflow: hidden;
     bottom: 0;
     display: grid;
@@ -8,16 +8,16 @@ footer{
     align-items: center;
 }
 .footer img{
-    height: 1.8rem;
-    line-height: 1.8rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
     vertical-align: middle;
 
 }
 .footer p{
     margin-bottom: 1.3rem;
     margin-top: 0;
-    color: white;
-    font-size: 0.8rem;
+    color: var(--dark-text);
+    font-size: 0.75rem;
 }
 
 .footer ul{
