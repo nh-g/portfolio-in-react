@@ -33,12 +33,12 @@ h4 {
 }
 @media screen and (min-width: 768px) {
   .App, html, body {
-    font-size: var(--font-text-desktop);
+    font-size: var(--font-text-tablet);
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1024px) {
   .App, html, body {
-    font-size: var(--font-text-medium-desktop);
+    font-size: var(--font-text-desktop);
   }
 }
 
