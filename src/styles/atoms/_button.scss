@@ -18,18 +18,15 @@ button{
 }
 
 .black {
-    border: 2px solid var(--button-dark);
+    border: 1px solid var(--button-dark);
     background-color: var( --button-dark);
     color: white;
 }
 
 .white {
-    border: 2px solid var( --button-dark);
+    border: 1px solid var( --button-dark);
     background-color: var(--button-light);
-    & a{
-        color: var( --button-dark);
-    }
-
+    color: var(--light-text);
 }
 
 #modal-popup .button{

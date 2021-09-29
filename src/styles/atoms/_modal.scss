@@ -65,7 +65,7 @@
     border: 1px solid var(--pill);
     color: var(--pill);
     margin: 4px;
-    border-radius: 25px;
+    border-radius: 50px;
     padding: 5px 10px 5px 10px;
 }
 
@@ -75,8 +75,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     font-size: 11px;
-    line-height: 1.5em;
-    height: 10em;       /* height is 2x line-height, so two lines will display */
+    // line-height: 1.5em;
+    // height: 10em;       /* height is 2x line-height, so two lines will display */
     overflow: hidden;  /* prevents extra lines from being visible */
 }
 @media screen and (max-height: 568px){
