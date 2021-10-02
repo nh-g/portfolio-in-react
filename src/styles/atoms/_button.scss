@@ -2,7 +2,7 @@ a{
     text-decoration: none;
     color: var(--light-text);
     &:hover{
-        color: white;
+        color: var(--dark-text);
     }
 }
 
@@ -65,7 +65,7 @@ button{
 
 .cta{
     a{
-        color: white;
+        color: var(--dark-text);
 }
     position: relative;
     margin: auto;
@@ -78,7 +78,7 @@ button{
         left: 0;
         display: block;
         border-radius: 1.65rem;
-        background: var(--cta);
+        background: var(--light-background);
         width: 3.3rem;
         height: 3.3rem;
         transition: all .3s ease;
@@ -107,7 +107,7 @@ button{
     &:hover{
         &:before{
             width: 100%;
-            background: var(--cta);
+            background: var(--light-background);
         }
         svg{
             transform: translateX(0);
