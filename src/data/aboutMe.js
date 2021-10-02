@@ -29,7 +29,7 @@ export function getAboutMe() {
         target="_blank"
         className="cta"
         rel="noopener noreferrer"
-        href="https://drive.google.com/file/d/10X6BnynfWezYfWR-CkU4qXS04izgziXA/view"
+        href="https://drive.google.com/drive/u/0/folders/1rdb0F_73W79ExNcBBk1UftiRCVNHbPOp"
       >
         <span>Check Resume</span>
         <svg width="13px" height="10px" viewBox="0 0 13 10">
