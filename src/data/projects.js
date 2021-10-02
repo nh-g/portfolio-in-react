@@ -21,20 +21,20 @@ export function getProjects() {
     },
     {
       description:
-        "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-      technologies: ["Some", "other", "third"],
-      isReleased: false,
+        "This is a package tracking web application where users can view a list of packages fetched by a mock API; search, sort from the list, view the interactive map tracking all packages' location, switch application's language. It uses:",
+      technologies: ["fetch API", "React i18", "React router dom", "Leaflet map", "SASS"],
+      isReleased: true,
       title: "Package Tracker",
       previewImg: "projects/package.jpg",
-      appScreenShot: "screenshots/vegan.png",
-      hosting: "https://github.com/nh-g",
-      repository: "https://github.com/nh-g/portfolio-in-react",
+      appScreenShot: "screenshots/parceltracker.png",
+      hosting: "https://parcel-tracker-giang.web.app/",
+      repository: "https://github.com/nh-g/advanced-parcel-tracking-app",
     },
     {
       description:
         "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
       technologies: ["Some", "other", "third"],
-      isReleased: false,
+      isReleased: true,
       title: "Todo list App",
       previewImg: "projects/todo.jpg",
       appScreenShot: "screenshots/vegan.png",
