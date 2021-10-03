@@ -33,8 +33,8 @@ export function getProjects() {
       title: "Package Tracker",
       previewImg: "projects/package.jpg",
       appScreenShot: "screenshots/parceltracker.png",
-      hosting: "https://parcel-tracker-giang.web.app/",
-      repository: "https://github.com/nh-g/advanced-parcel-tracking-app",
+      website: "https://parcel-tracker-giang.web.app/",
+      github: "https://github.com/nh-g/advanced-parcel-tracking-app",
     },
     {
       description:
@@ -50,8 +50,8 @@ export function getProjects() {
       title: "Todo list App",
       previewImg: "projects/todo.jpg",
       appScreenShot: "screenshots/todo.png",
-      hosting: "https://shopping-list-app-eika.web.app/",
-      repository: "https://github.com/nh-g/shopping-list",
+      website: "https://shopping-list-app-eika.web.app/",
+      github: "https://github.com/nh-g/shopping-list",
     },
     {
       description:
