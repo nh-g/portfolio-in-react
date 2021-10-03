@@ -1,5 +1,5 @@
 // NPM packages
-import { useState, useEffect, useRef } from "react";
+import { useState} from "react";
 
 // Project files
 import ImageLoader from "../../components/ImageLoader";
@@ -11,28 +11,9 @@ export default function ProjectCard({ item }) {
 
   const [isOpen, setIsOpen] = useState(false);
 
-  // /** capture click outside with React Hook */
-  // const node = useRef();
-  // const handleClick = (e) => {
-  //   if (node.current.contains(e.target)) {
-  //     // inside click
-  //     return;
-  //   }
-  //   // outside click
-  //   setIsOpen(false);
-  // };
-  // useEffect(() => {
-  //   document.addEventListener("mousedown", handleClick);
-
-  //   return () => {
-  //     document.removeEventListener("mousedown", handleClick);
-  //   };
-  // }, []);
-
   return (
     <article>
       <div
-        // ref={node}
         onClick={() => isReleased && setIsOpen(true)}
         className={isReleased ? "normal" : "overlay"}
       >
