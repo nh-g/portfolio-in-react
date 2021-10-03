@@ -3,9 +3,16 @@ export function getAboutMe() {
   return (
     <>
       <p>
-        I have 5 year experience working in Japan in business development,
-        consulting, project management, for major players in HR and IT.
-        Currently, I am brushing up my skill at Novare Frontend Camp. <br />
+        I have 5 year experience with Agile Scrum working in Japan in business
+        development, consulting, project management, for major players in HR and
+        IT. Currently, I am brushing up my skill at Novare Frontend Camp. 
+        <br />
+        {/* According to my closest colleagues and friends: I'm always positive,
+        have a structured and analytical approach to problem solving and I'm a
+        team player. On the personal side I was told to be a kind, and have a
+        special vibe that people can confide in. I'm open to new opportunities
+        and I believe I would thrive in a role between the intersection of
+        business and technology to create products which enrich users life. */}
         {/* <br />
       Moving to Stockholm in late of 2018, I took a challenge starting a family
       in a new continent. And with a beautiful chaos since the born of my child and what-called new mom

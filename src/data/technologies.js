@@ -60,5 +60,9 @@ export function getTechnologies() {
       imgFilePath: "skills/jest.svg",
       title: "Jest",
     },
+    {
+      imgFilePath: "skills/scrum.svg",
+      title: "Agile Scrum",
+    },
   ];
 }
