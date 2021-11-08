@@ -105,7 +105,7 @@ export function getProjects() {
       isReleased: true,
       title: "LMS with Inline editable admin dashboard",
       previewImg: "projects/learning.jpg",
-      appScreenShot: "screenshots/vegan.png",
+      appScreenShot: "screenshots/lms.png",
       website: "https://learning-platform-giang.web.app/",
       github: "https://github.com/nh-g/lms",
     },
