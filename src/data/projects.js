@@ -72,7 +72,7 @@ export function getProjects() {
     },
     {
       description:
-        "This project is a full-stack user-generated content platform that focuses on group developments. Users can create, edit, delete their own login credentials and profile information. Users can create, search, and join or leave groups as well as get group' feeds. Users can also create, edit, and delete their own posts, comments. It uses:",
+        "This project is a full-stack user-generated content platform that focuses on group developments. Users can create, edit, delete their own login credentials, profile information, post and comments. Users can create, search, and join or leave groups as well as get group' feeds. It uses:",
       technologies: ["Spring", "PostgreSQL", "React", "React Router", "Axios"],
       isReleased: true,
       title: "Immigrants connecting SNS Web App",
