@@ -1,8 +1,7 @@
 export function getProjectsIntro() {
   return (
     <p>
-      Here are the projects I will be making during the Frontend course at
-      Novare Potential.
+      I like to make elegant but effective products. Here are some of my projects. 
     </p>
   );
 }

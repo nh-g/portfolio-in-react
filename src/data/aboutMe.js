@@ -3,10 +3,14 @@ export function getAboutMe() {
   return (
     <>
       <p>
-        I have 5 year experience with Agile Scrum working in Japan in business
-        development, consulting, project management, for major players in HR and
-        IT. Currently, I am brushing up my skill at Novare Frontend Camp. 
+        I have experience from working in a big media company in Japan - where I
+        was working closely with the in-house development team and tech start
+        ups in the US and Israel. I am fluent in English, Japanese, Vietnamese and agile scrum method.
         <br />
+        <br />
+        I am motivated by challenges, a fast learner and accustomed to working
+        in a high paced environment. With a kind, social and flexible
+        personality, I can be your team player. <br />
         {/* According to my closest colleagues and friends: I'm always positive,
         have a structured and analytical approach to problem solving and I'm a
         team player. On the personal side I was told to be a kind, and have a
@@ -18,11 +22,11 @@ export function getAboutMe() {
       in a new continent. And with a beautiful chaos since the born of my child and what-called new mom
       crisis, I find programming as a meditation to connect to my own sanity.
       <br /> */}
-        <br />
+        {/* <br />
         My field of expertise which maybe of use to you, dear visitor, lies in
         the following: <br />
         <br />❖ UI/UX design <br />❖ Responsive and interactive design
-        <br />❖ Web development
+        <br />❖ Web development */}
       </p>
       {/* <a
         target="_blank"
