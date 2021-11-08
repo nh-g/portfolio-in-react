@@ -24,7 +24,7 @@ export default function Footer() {
           </a>
         </li>
       </ul>
-      <p>© 2021 • Designed and built by Giang N.H.</p>
+      <p>© 2021 | Designed and built by Giang N.H.</p>
     </footer>
   );
 }
