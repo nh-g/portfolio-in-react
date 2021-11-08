@@ -103,7 +103,7 @@ export function getProjects() {
         "React router dom",
       ],
       isReleased: true,
-      title: "LMS with Inline editable admin dashboard",
+      title: "LMS with inline editable Admin dashboard",
       previewImg: "projects/learning.jpg",
       appScreenShot: "screenshots/lms.png",
       website: "https://learning-platform-giang.web.app/",
