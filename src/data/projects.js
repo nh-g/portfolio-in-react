@@ -19,21 +19,21 @@ export function getProjects() {
     },
     {
       description:
-        "This project is a learning platform where users as admin can do CRUD operation in form of inline editable UI. It uses:",
+        "This project is where I practice building complicated web application and handle detail-oriented requirements. It uses:",
       technologies: [
-        "Firebase-authentication",
-        "Cloud Firestore",
         "Typescript",
+        "Firebase",
         "SASS",
         "Context API",
         "React router dom",
+        "React-youtube",
       ],
       isReleased: true,
-      title: "LMS with inline editable Admin dashboard",
-      previewImg: "projects/learning.jpg",
-      appScreenShot: "screenshots/lms.png",
-      website: "https://learning-platform-giang.web.app/",
-      github: "https://github.com/nh-g/lms",
+      title: "Create your own Netflix'content",
+      previewImg: "projects/netflix.jpg",
+      appScreenShot: "screenshots/netflix.png",
+      website: "https://reactflix-giang.web.app/",
+      github: "https://github.com/nh-g/reactFlix",
     },
     {
       description:
@@ -52,17 +52,7 @@ export function getProjects() {
       website: "https://ecommerce-giang.web.app/",
       github: "https://github.com/nh-g/e-commerce",
     },
-    {
-      description:
-        "This project is a full-stack user-generated content platform that focuses on group developments. Users can create, edit, delete their own login credentials, profile information, post and comments. Users can create, search, and join or leave groups as well as get group' feeds. It uses:",
-      technologies: ["Spring", "PostgreSQL", "React", "React Router", "Axios"],
-      isReleased: true,
-      title: "Immigrants connecting SNS Web App",
-      previewImg: "projects/sns.jpg",
-      appScreenShot: "screenshots/sns.png",
-      website: "https://landing-page-23e74.web.app/",
-      github: "https://github.com/nh-g/LandingPage",
-    },
+
     {
       description: "This project showcases a list of free games. It uses:",
       technologies: ["Typescript", "SASS", "Styled-components"],
@@ -72,6 +62,18 @@ export function getProjects() {
       appScreenShot: "screenshots/games.png",
       website: "https://quizzical-cray-f11408.netlify.app/",
       github: "https://github.com/nh-g/free-game-website",
+    },
+
+    {
+      description:
+        "This project is a full-stack user-generated content platform that focuses on group developments. Users can create, edit, delete their own login credentials, profile information, post and comments. Users can create, search, and join or leave groups as well as get group' feeds. It uses:",
+      technologies: ["Spring", "PostgreSQL", "React", "Recoiljs", "Axios"],
+      isReleased: true,
+      title: "Immigrants connecting SNS Web App",
+      previewImg: "projects/sns.jpg",
+      appScreenShot: "screenshots/sns.png",
+      website: "https://landing-page-23e74.web.app/",
+      github: "https://github.com/nh-g/LandingPage",
     },
     {
       description:
@@ -112,14 +114,21 @@ export function getProjects() {
 
     {
       description:
-        "This project is about A, B, C where users can do D, E, F, so they can obtain G, H, I benefit. It uses:",
-      technologies: ["Some", "other", "third"],
+        "This project is a learning platform where users as admin can do CRUD operation in form of inline editable UI. It uses:",
+      technologies: [
+        "Firebase-authentication",
+        "Cloud Firestore",
+        "Typescript",
+        "SASS",
+        "Context API",
+        "React router dom",
+      ],
       isReleased: false,
-      title: "Netflix clone",
-      previewImg: "projects/netflix.jpg",
-      appScreenShot: "screenshots/vegan.png",
-      hosting: "https://github.com/nh-g",
-      github: "https://github.com/nh-g/portofolio",
+      title: "LMS with inline editable GUI",
+      previewImg: "projects/learning.jpg",
+      appScreenShot: "screenshots/lms.png",
+      website: "https://learning-platform-giang.web.app/",
+      github: "https://github.com/nh-g/lms",
     },
   ];
 }
