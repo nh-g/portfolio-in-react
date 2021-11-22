@@ -11,7 +11,7 @@ export function getProjects() {
         "SASS",
       ],
       isReleased: true,
-      title: "Interactive Internationalized Package Tracker",
+      title: "Internationalized Package Tracker",
       previewImg: "projects/package.jpg",
       appScreenShot: "screenshots/parceltracker.png",
       website: "https://parcel-tracker-giang.web.app/",
@@ -29,7 +29,7 @@ export function getProjects() {
         "React-youtube",
       ],
       isReleased: true,
-      title: "Create your own Netflix'content",
+      title: "Create your own Netflix",
       previewImg: "projects/netflix.jpg",
       appScreenShot: "screenshots/netflix.png",
       website: "https://reactflix-giang.web.app/",
@@ -63,25 +63,12 @@ export function getProjects() {
       website: "https://quizzical-cray-f11408.netlify.app/",
       github: "https://github.com/nh-g/free-game-website",
     },
-
-    {
-      description:
-        "This project is a full-stack user-generated content platform that focuses on group developments. Users can create, edit, delete their own login credentials, profile information, post and comments. Users can create, search, and join or leave groups as well as get group' feeds. It uses:",
-      technologies: ["Spring", "PostgreSQL", "React", "Recoiljs", "Axios"],
-      isReleased: true,
-      title: "Immigrants connecting SNS Web App",
-      previewImg: "projects/sns.jpg",
-      appScreenShot: "screenshots/sns.png",
-      website: "https://landing-page-23e74.web.app/",
-      github: "https://github.com/nh-g/LandingPage",
-    },
     {
       description:
         "This is a simple todo list app to allow users to add items to their shopping list. Once an item has been added, you can add a picture for it by pressing on the camera icon; or mark it as complete by pressing on the checkbox. It uses:",
       technologies: [
-        "Javascript",
-        "React",
-        "ContextAPI",
+        "Jest", 
+        "Recoil",
         "Local Storage",
         "Firebase Cloud Storage",
       ],
@@ -111,7 +98,17 @@ export function getProjects() {
       website: "https://veggie-giang.web.app/",
       github: "https://github.com/nh-g/veggies",
     },
-
+    {
+      description:
+        "This project is a full-stack user-generated content platform that focuses on group developments. Users can create, edit, delete their own login credentials, profile information, post and comments. Users can create, search, and join or leave groups as well as get group' feeds. It uses:",
+      technologies: ["Spring", "PostgreSQL", "React", "Recoiljs", "Axios"],
+      isReleased: true,
+      title: "Immigrants connecting SNS Web App",
+      previewImg: "projects/sns.jpg",
+      appScreenShot: "screenshots/sns.png",
+      website: "https://landing-page-23e74.web.app/",
+      github: "https://github.com/nh-g/LandingPage",
+    },
     {
       description:
         "This project is a learning platform where users as admin can do CRUD operation in form of inline editable UI. It uses:",
