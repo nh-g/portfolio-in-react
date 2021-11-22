@@ -5,7 +5,8 @@ export function getAboutMe() {
       <p>
         I have experience from working in a big media company in Japan - where I
         was working closely with the in-house development team and tech start
-        ups in the US and Israel. I am fluent in English, Japanese, Vietnamese and agile scrum method.
+        ups in the US and Israel. I am fluent in English, Japanese, Vietnamese
+        and agile scrum method.
         <br />
         <br />
         I am motivated by challenges, a fast learner and accustomed to working
@@ -40,7 +41,7 @@ export function getAboutMe() {
         target="_blank"
         className="cta"
         rel="noopener noreferrer"
-        href="https://drive.google.com/drive/u/0/folders/1rdb0F_73W79ExNcBBk1UftiRCVNHbPOp"
+        href="https://drive.google.com/file/d/1h8fvYDhk8LIn6-WgCMrpAoT8Zc_SfDKo/view?usp=sharing"
       >
         <span>Check Resume</span>
         <svg width="13px" height="10px" viewBox="0 0 13 10">
