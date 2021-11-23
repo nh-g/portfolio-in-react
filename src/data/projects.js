@@ -19,7 +19,7 @@ export function getProjects() {
     },
     {
       description:
-        "This project is where I practice building complicated web application and handle detail-oriented requirements. It uses:",
+        "Not just a Netflix clone, this project has a built-in CMS where you can create content for Netflix database. It uses:",
       technologies: [
         "Typescript",
         "Firebase",

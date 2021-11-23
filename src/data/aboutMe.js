@@ -41,7 +41,7 @@ export function getAboutMe() {
         target="_blank"
         className="cta"
         rel="noopener noreferrer"
-        href="https://drive.google.com/file/d/1h8fvYDhk8LIn6-WgCMrpAoT8Zc_SfDKo/view?usp=sharing"
+        href="https://drive.google.com/file/d/1HytkTfV7G8SqPBCPoQcWXXc-UzCq-tJP/view?usp=sharing"
       >
         <span>Check Resume</span>
         <svg width="13px" height="10px" viewBox="0 0 13 10">
